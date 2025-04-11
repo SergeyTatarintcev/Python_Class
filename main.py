@@ -27,3 +27,18 @@ class Warrior():
         print(f"выносливость воина - {self.endurance}")
 
 
+war1 = Warrior("Леха", 78, 64, "Коричневый")
+war2 = Warrior("Егор", 55, 46, "блонд")
+
+
+war1.sleep()
+war1.eat()
+war1.hit()
+war1.walk()
+war1.info()
+
+war2.sleep()
+war2.eat()
+war2.hit()
+war2.walk()
+war2.info()
